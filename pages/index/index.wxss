@@ -1,0 +1,51 @@
+page{
+  background-color: #186FC0;
+}
+.content{
+  font-family:微软雅黑,宋体；
+  font-size:14px;
+  color:#fff;
+}
+.info{
+  padding:20px;
+  background-color: rgba(0,0,0,.5);
+  box-shadow: 10px 10px 20px rgba(0,0,0,.5);
+}
+.today{
+  padding-top:50rpx;
+  height:50%;
+}
+.temp{
+  font-size:24px;
+}
+.weater{font-size:18px;}
+.weater,.temp,.wendu{text-align:center;}
+.city{text-align:right;font-weight:bold;}
+.wendu{font-size:16px;}
+.tishi{font-size:14px;}
+.future{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  height:40%;
+  font-size:24rpx;
+  padding-left:5rpx;
+  background-color: rgba(0,0,0,.5);
+  box-shadow: 10px 10px 20px rgba(0,0,0,.5);
+  text-align:Center;
+  padding-top:20rpx;
+  padding-bottom:20rpx;
+  margin-top:50rpx;
+  
+}
+.future-item{
+  min-height:100%;
+  width:165rpx;
+  margin-left:10rpx;
+  margin-right:10rpx;
+  border:1px solid coral;
+  border-radius:10px;
+  padding-top:20rpx;
+  padding-bottom:20rpx;
+}
+.future-item view{margin-top:10px;}
